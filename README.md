@@ -120,8 +120,10 @@ python3 rapor.py piper.json piper_norm.json \
 | `dinleme_seti.py` | Kör dinleme (MOS) seti hazırlar, cevap anahtarını ayrı tutar |
 | `deney_oku.py` | VoxCPM normalizasyon deneyini okur (baseline, kontrol, deney) |
 | `test_w2v2.py` | wav2vec2 ile tek dosya hızlı test |
-| `cfer.py` | Eski sürüm, kullanılmıyor (yerine `alan_cfer.py`) |
-| `*.json` | Koşu sonuçları |
+| `*.json` | Koşu sonuçları (her biri bir TTS + ayar kombinasyonu) |
+| `gerekce_*.txt`, `deney_normalizasyon.txt` | Kural motoru ve deney çıktıları (terminal dökümü) |
+| `mos_capa_ozet.json` | Çapalı UTMOSv2 ölçümü özeti |
+| `BULGU_normalizasyon.md`, `DEGISIKLIKLER.md` | Deney notları ve sürüm değişiklikleri |
 | `sesler*/` | Üretilen sesler ve referans metinler (`refs.tsv`) |
 
 ## Lisanslar ve araçlar
