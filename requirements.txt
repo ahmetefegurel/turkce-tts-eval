@@ -1,0 +1,14 @@
+# Skorlama (score_wav.py, test_w2v2.py)
+faster-whisper
+transformers
+torch
+librosa
+soundfile
+numpy
+
+# TTS ureticileri (sadece seslendirme yapacaksan)
+piper-tts
+voxcpm
+
+# Dogallik (opsiyonel). Kurulum:
+#   GIT_LFS_SKIP_SMUDGE=1 pip install git+https://github.com/sarulab-speech/UTMOSv2.git
